@@ -1,8 +1,38 @@
 body {
     background-image: linear-gradient(to bottom, #6e98adab, #9c5c5c);
     font-family: Arial, sans-serif;
+    justify-content: center;
 }
 
 h1 {
     color: #e5e5e5
+}
+
+.highlight {
+    color: #e5e5e5;
+    background-color: #4b5f35;
+    padding:50px;
+    border-radius: 10px;
+    margin: 30px 0;
+    box-shadow: 0 9px 9px rgba(0, 0, 0, 0.2);
+    justify-content: center;
+}
+
+.gallery-image {
+    width: 64%;
+    height: 64%;
+    object-fit: contain;
+    margin: 10px;
+}
+
+#img-1{
+    border: 2px solid #dbdbdb;
+}
+
+#img-2{
+    border: 2px solid #d4d4d4;
+}
+
+#img-3{
+    border: 2px solid #a2a2a2;
 }
