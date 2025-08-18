@@ -1,10 +1,6 @@
-body {
+.body {
     background-image: linear-gradient(to bottom, #6e98adab, #9c5c5c);
     font-family: Arial, sans-serif;
-}
-
-h1 {
-    color: #e5e5e5
 }
 
 .highlight {
@@ -45,4 +41,8 @@ h1 {
     margin: 80px auto;
     box-shadow: 0 9px 9px rgba(0, 0, 0, 0.2);
     justify-self: center;
+}
+
+.index-title {
+    color: #e5e5e5
 }
